@@ -1,0 +1,49 @@
+@import url("http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+
+
+
+#one{
+	margin: 0;
+	overflow: hidden;
+	background: #eee;
+	font-family: Courier, monospace;
+	font-size: 14px;
+	background-color: #000;
+	max-height: 800px;
+}
+
+#two{
+	//*background-image: url(../bg.jpg);*//
+	text-transform: uppercase;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	display: table-column-group;
+}
+
+
+#three{
+	background-color: darkslategray;
+}
+
+
+#four{
+	background-color:rgb(119, 31, 31);
+}
+
+
+#five{
+	background-color: rgb(23, 43, 9);
+
+}
+
+
+#c {
+  display: block;
+  margin: calc(50vh - 175px) auto;
+}
+
+
+
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
+
+
