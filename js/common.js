@@ -3,13 +3,15 @@ $(document).ready(function() {
     
 
 
-	$(".animation_1").animated("flipInY", "fadeOutDown");
-	$(".animation_2").animated("slideInLeft", "slideOutLeft");
+	$(".animation_1").animated("bounceInLeft", "pulse");
+	$(".animation_2").animated("bounceInRight", "pulse");
 	$(".animation_3").animated("slideInRight", "slideOutRight");
 	$(".animation_4").animated("zoomInDown", "fadeOutDown");
-	
-
-
+	$(".animation_5").animated("swing", "pulse");
+	$(".animation_6").animated("pulse", "pulse");
+	$(".animation_7").animated("flip", "pulse");
+	$(".animation_8").animated("rubberBand", "pulse");
+	$(".animation_9").animated("slideInLeft", "slideOutLeft");
 });
 
 $(document).ready(function(){
@@ -64,6 +66,12 @@ $(document).ready(function(){
 
 
 
+/* Demo purposes only */
+$(".hover").mouseleave(
+  function () {
+    $(this).removeClass("hover");
+  }
+);
 
 
 
@@ -121,9 +129,6 @@ Item.prototype = {
 [].slice.call(document.querySelectorAll('button'), 0).forEach(function (button) {
   button.addEventListener('click', changeColor);
 });
-
-
-
 
 
 
